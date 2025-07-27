@@ -20,7 +20,8 @@ var collector = builder.AddProject<McpPlayground_TelemetryCollector>("telemetry-
     .WithReference(postgresdb).WaitFor(postgresdb);
 
 // Add Server
-var server = builder.AddProject<McpPlayground_McpServer>("mcp-server");
+var server = builder.AddProject<McpPlayground_Server>("mcp-server")
+    .WithExternalHttpEndpoints();
     
 
 builder.Build().Run();

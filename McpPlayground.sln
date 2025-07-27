@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpPlayground.Shared", "Mcp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpPlayground.TelemetryCollector", "McpPlayground.TelemetryCollector\McpPlayground.TelemetryCollector.csproj", "{86BADB53-54C9-48AC-B300-A80089145D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpPlayground.McpServer", "McpPlayground.McpServer\McpPlayground.McpServer.csproj", "{09674662-0B16-484A-BDC7-A39ECA464FE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpPlayground.Server", "McpPlayground.Server\McpPlayground.Server.csproj", "{1B067F4F-7CDF-4930-96FE-951A891FB156}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +38,9 @@ Global
 		{86BADB53-54C9-48AC-B300-A80089145D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86BADB53-54C9-48AC-B300-A80089145D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86BADB53-54C9-48AC-B300-A80089145D5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09674662-0B16-484A-BDC7-A39ECA464FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09674662-0B16-484A-BDC7-A39ECA464FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09674662-0B16-484A-BDC7-A39ECA464FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09674662-0B16-484A-BDC7-A39ECA464FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B067F4F-7CDF-4930-96FE-951A891FB156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B067F4F-7CDF-4930-96FE-951A891FB156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B067F4F-7CDF-4930-96FE-951A891FB156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B067F4F-7CDF-4930-96FE-951A891FB156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
