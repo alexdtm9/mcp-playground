@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HiveMQtt" Version="0.27.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.7">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\McpPlayground.AspireDefaults\McpPlayground.AspireDefaults.csproj" />
+      <ProjectReference Include="..\McpPlayground.Shared\McpPlayground.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
