@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpPlayground.AspireHost", "McpPlayground.AspireHost\McpPlayground.AspireHost.csproj", "{87FA668A-318F-417E-9559-4EB95C636785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpPlayground.AspireDefaults", "McpPlayground.AspireDefaults\McpPlayground.AspireDefaults.csproj", "{A40605C7-8AC1-43CA-9E39-64758BF01549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpPlayground.Simulator", "McpPlayground.Simulator\McpPlayground.Simulator.csproj", "{60A21B54-5629-4A9C-942D-38C4EEBB2FBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87FA668A-318F-417E-9559-4EB95C636785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FA668A-318F-417E-9559-4EB95C636785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FA668A-318F-417E-9559-4EB95C636785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FA668A-318F-417E-9559-4EB95C636785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40605C7-8AC1-43CA-9E39-64758BF01549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40605C7-8AC1-43CA-9E39-64758BF01549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40605C7-8AC1-43CA-9E39-64758BF01549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40605C7-8AC1-43CA-9E39-64758BF01549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A21B54-5629-4A9C-942D-38C4EEBB2FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A21B54-5629-4A9C-942D-38C4EEBB2FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A21B54-5629-4A9C-942D-38C4EEBB2FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A21B54-5629-4A9C-942D-38C4EEBB2FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
