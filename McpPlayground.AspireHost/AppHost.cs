@@ -18,6 +18,9 @@ var simulator = builder.AddProject<McpPlayground_Simulator>("simulator")
 var collector = builder.AddProject<McpPlayground_TelemetryCollector>("telemetry-collector")
     .WithReferenceRelationship(mosquitto).WaitFor(mosquitto)
     .WithReference(postgresdb).WaitFor(postgresdb);
+
+// Add Server
+var server = builder.AddProject<McpPlayground_McpServer>("mcp-server");
     
 
 builder.Build().Run();

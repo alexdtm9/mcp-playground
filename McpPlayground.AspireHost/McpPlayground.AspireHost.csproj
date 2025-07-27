@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\McpPlayground.McpServer\McpPlayground.McpServer.csproj" />
       <ProjectReference Include="..\McpPlayground.Simulator\McpPlayground.Simulator.csproj" />
       <ProjectReference Include="..\McpPlayground.TelemetryCollector\McpPlayground.TelemetryCollector.csproj" />
     </ItemGroup>
