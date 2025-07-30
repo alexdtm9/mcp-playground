@@ -1,4 +1,5 @@
 ## Setup
+Test
 You just need to run the AspireHost. First time you may need
 to manually restart the collector service so that the database has time to create.
 
